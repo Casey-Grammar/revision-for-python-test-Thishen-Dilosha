@@ -2,7 +2,7 @@ import unittest
 from unittest.mock import patch
 import task1
 
-class TestTask1(unittest.TestCase):
+class Testtask1(unittest.TestCase):
 
     @patch('builtins.print')
     @patch('builtins.input', side_effect=['Alice', 'Bob', ''])
